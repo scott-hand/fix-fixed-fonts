@@ -4,7 +4,7 @@ from setuptools import setup
 from codecs import open
 from os import path
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 DESCRIPTION = "Removes width inconsistency in fonts, enabling their use in Windows tools like PuTTY"
 
 here = path.abspath(path.dirname(__file__))
@@ -27,7 +27,7 @@ setup(
                  "Intended Audience :: Developers",
                  "Programming Language :: Python :: 2"],
     packages=["fixfonts"],
-    install_requires=requirements,
+    install_requires=[],  # Not putting fontforge here because it doesn't play nice with setuptools
     entry_points={
         "console_scripts": [
             "fixfonts=fixfonts.app:main"
