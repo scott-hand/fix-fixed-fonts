@@ -1,8 +1,8 @@
 # Fix Fixed-Pitch Fonts
 
-This tool intends to solve the problem of monospace fonts, programming oriented fonts in particular, being unuseable in
-Windows tools such as the command prompt, PuTTY, etc., due to small numbers of glyphs with inconsistent widths. See
-[this article](https://support.microsoft.com/en-us/kb/247815) from Microsoft for details.
+This tool is a tiny script that intends to solve the problem of monospace fonts, programming oriented fonts in
+particular, being unuseable in Windows tools such as the command prompt, PuTTY, etc., due to small numbers of glyphs
+with inconsistent widths. See [this article](https://support.microsoft.com/en-us/kb/247815) from Microsoft for details.
 
 ## Installation
 

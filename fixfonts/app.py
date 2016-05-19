@@ -44,7 +44,6 @@ def main():
         for glyph in bad_glyphs:
             glyph.width = correct_width
         print("\t\033[1mFixing:\033[0m {}...".format(", ".join([glyph.glyphname for glyph in bad_glyphs])))
-        #print("\033[1mFixing:\033[0m {}...".format(", ".join([glyph.glyphname for glyph in bad_glyphs])))
 
         font.generate(output_filename)
 
